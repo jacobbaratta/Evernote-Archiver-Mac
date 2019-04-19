@@ -1,7 +1,7 @@
 # Evernote Archiver for Mac
->A basic Applescript-based solution for archiving your entire Evernote library as both ENEX and HTML (with attachments exported)
+>A simple Applescript-based solution for archiving your entire Evernote library as both ENEX and HTML (including attachments)
 
-This Applescript script exports all of your Evernote notes into `~/Documents/Evernote backups/<DATE>/My Notes.enex`, then exports all of your individual notes as HTML (along with any attached files, which are placed inside folders) into a temporary folder, which is zipped up as `~/Documents/Evernote backups/<DATE>/My Notes.zip`.
+This Applescript script exports all of your Evernote notes into `~/Documents/Evernote backups/CURRENT_DATE/My Notes.enex`, then exports all of your individual notes as HTML (along with any attached files, which are placed inside folders) into a temporary folder, which is zipped up as `~/Documents/Evernote backups/CURRENT_DATE/My Notes (HTML).zip`.
 
 ## Installation
 
@@ -21,7 +21,15 @@ Note that there is no progress indicator displayed during the phrase where it zi
 ## Release History
 
 * 1.0
-    * First public release
+	* First public release
+* 1.1 (Apr 19, 2019)
+	* Changed folder date format to YYYY-MM-DD as prior format could not be sorted properly by name alone.
+	* Switched to generating dates via `date` due to the limitations of Applescript's native date/time functionality
+	* Added some additional code comments
+	* Minor code improvements
+	* Minor copyedits to code & code comments
+	* Minor improvements to documentation
+	* Updated copyright year in MIT license
 
 ## Meta
 
