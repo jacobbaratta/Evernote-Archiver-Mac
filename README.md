@@ -20,7 +20,7 @@ Note that there is no progress indicator displayed during the phrase where it zi
 
 ## Release History
 
-* 1.0
+* 1.0 (Apr 8, 2018)
 	* First public release
 * 1.1 (Apr 19, 2019)
 	* Changed folder date format to YYYY-MM-DD as prior format could not be sorted properly by name alone.
